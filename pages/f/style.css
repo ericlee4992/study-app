@@ -1,0 +1,68 @@
+body{
+    background-color: #FFEBCD;
+    
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    margin: 20px 40px 40px 40px;
+    
+}
+
+.header{
+    display:flex;
+    flex-direction:row;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Finlandica', sans-serif;
+   
+    
+}
+
+.header > div{
+    margin-right: 15px;
+}
+
+.options{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    margin-bottom: 30px;
+    font-family: "Courier New";
+    
+}
+
+.options > div{
+    margin-right: 40px;
+    
+}
+
+.lessons{
+    display:flex;
+    flex-direction:column;
+    font-family: "Courier New";
+    
+}
+
+
+.lessons > div{
+    display:flex;
+    margin-bottom:20px;
+}
+
+.third .name{
+    margin-left: 15px;
+}
+
+#theme{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.form{
+    
+    margin-top: 100px;
+    display:flex;
+}
